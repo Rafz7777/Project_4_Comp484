@@ -1,0 +1,73 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Wrapper for UI and map side by side */
+#game-container {
+    display: flex;
+    flex-direction: row; /* UI left, map right */
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* UI container */
+#ui-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Status prompt styling */
+#status {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Score styling */
+#score {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Timer styling */
+#timer {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* High score styling */
+#highscore {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* History log styling */
+#history {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Reset button styling */
+#reset-button {
+    margin-top: 15px;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Map container */
+#map-container {
+    width: 650px;
+    height: 600px;
+    border: 2px solid black;
+}
+
+/* Map fills container */
+#map {
+    width: 100%;
+    height: 100%;
+}

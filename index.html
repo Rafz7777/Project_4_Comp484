@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSUN Map Location Game</title>
+
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>CSUN Map Location Game</h1>
+
+    <!-- Wrapper for UI and map side by side -->
+    <div id="game-container">
+
+        <!-- UI on the left -->
+        <div id="ui-container">
+            <div id="status">Double click on the map to select a location</div>
+            <div id="score">Score: 0 / 0</div>
+            <div id="timer">Time: 0s</div>
+            <div id="highscore">High Score: N/A</div>
+            <div id="history"></div> <!-- History log -->
+            <button id="reset-button">Reset Game</button> <!-- Reset button -->
+        </div>
+
+        <!-- Map on the right -->
+        <div id="map-container">
+            <div id="map"></div>
+        </div>
+
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByr9l4BB52WsALRFih6gsVwMepjHrLvLk"></script>
+
+    <!-- Game Logic -->
+    <script src="app.js"></script>
+
+</body>
+</html>
